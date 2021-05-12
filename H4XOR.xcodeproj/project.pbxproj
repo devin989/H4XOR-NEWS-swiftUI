@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		607D5492264C10EA00D3DE89 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607D5491264C10EA00D3DE89 /* WebView.swift */; };
 		608B722826480C24001909C4 /* H4XORApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B722726480C24001909C4 /* H4XORApp.swift */; };
 		608B722A26480C24001909C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B722926480C24001909C4 /* ContentView.swift */; };
 		608B722C26480C26001909C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608B722B26480C26001909C4 /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		607D5491264C10EA00D3DE89 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		607D5493264C11BA00D3DE89 /* H4XOR.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = H4XOR.entitlements; sourceTree = "<group>"; };
 		608B722426480C24001909C4 /* H4XOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H4XOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		608B722726480C24001909C4 /* H4XORApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4XORApp.swift; sourceTree = "<group>"; };
 		608B722926480C24001909C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		608B722626480C24001909C4 /* H4XOR */ = {
 			isa = PBXGroup;
 			children = (
+				607D5493264C11BA00D3DE89 /* H4XOR.entitlements */,
 				608B722726480C24001909C4 /* H4XORApp.swift */,
 				608B723B26483108001909C4 /* Views */,
 				608B723626481492001909C4 /* Models */,
@@ -90,6 +94,7 @@
 			children = (
 				608B722926480C24001909C4 /* ContentView.swift */,
 				608B723C264831D5001909C4 /* DetailView.swift */,
+				607D5491264C10EA00D3DE89 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				608B7238264814C8001909C4 /* NetworkManager.swift in Sources */,
 				608B723A26481FE0001909C4 /* PostData.swift in Sources */,
 				608B722A26480C24001909C4 /* ContentView.swift in Sources */,
+				607D5492264C10EA00D3DE89 /* WebView.swift in Sources */,
 				608B723D264831D5001909C4 /* DetailView.swift in Sources */,
 				608B722826480C24001909C4 /* H4XORApp.swift in Sources */,
 			);
@@ -295,8 +301,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = H4XOR/H4XOR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4XOR/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JWSGH5C52;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = H4XOR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -306,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deveenrathnayake.H4XOR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,8 +325,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = H4XOR/H4XOR.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4XOR/Preview Content\"";
+				DEVELOPMENT_TEAM = 4JWSGH5C52;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = H4XOR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -327,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deveenrathnayake.H4XOR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
